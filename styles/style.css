@@ -77,35 +77,6 @@ nav button {
   border-radius: 50%;
 }
 
-#glow_effect {
-  background: none;
-  width: 7.2vw;
-  height: 7.2vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -7.4vw;
-  border:none;
-  border-radius: 50%;
-  z-index: 0;
-  /* transition: .3s; */
-}
-
-.content .profile_img img:hover ~ #glow_effect {
-  background: yellow;
-  animation: rotate .3s infinite linear;
-  z-index: 0;
-  border-top: 5px solid red;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 .content ul {
   margin-top: 10%;
   position: relative;
@@ -117,11 +88,11 @@ nav button {
   position: absolute;
   width: 100%;
   transition: .3s;
-  animation: fade 1s reverse forwards linear;
+  animation: fade .3s reverse forwards linear;
 }
 
 .content ul li.active {
-  animation: fade 1s forwards linear;
+  animation: fade .3s forwards linear;
 }
 
 .card {
