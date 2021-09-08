@@ -4,21 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>FDND Visitekaartje van Koop</title>
+	<title>FDND Visitekaartje van Beau</title>
 	<link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body onresize="initButtons();">
+<body onresize="init();">
 	<div class="container">
+
+		<div id="name_card">
+			Beau Dekker
+		</div>
 
 		<main>
 			<header>
 				<nav>
-					<button>Wie ben ik?</button>
-					<button>Wat is dit?</button>
 					<button>Wat doe ik?</button>
+					<button>Wat is dit?</button>
+					<button class="active">Wie ben ik?</button>
 					<button>Wat wil ik?</button>
-					<button>Wat wil ik?</button>
+					<button>Title</button>
 				</nav>
 
 			</header>
@@ -31,28 +35,28 @@
 				<ul>
 					<li>
 						<div class="card">
-							<h4>Title</h4>
+							<h4>Wat doe ik?</h4>
 							<p>Ik ben Beau Dekker, 19 jaar</p>
 						</div>
 					</li>
 
 					<li>
 						<div class="card">
-							<h4>Title</h4>
+							<h4>Wat is dit?</h4>
 							<p>Ik ben Beau Dekker, 19 jaar</p>
 						</div>
 					</li>
 
 					<li class="active">
 						<div class="card">
-							<h4>Title</h4>
+							<h4>Wie ben ik?</h4>
 							<p>Ik ben Beau Dekker, 19 jaar</p>
 						</div>
 					</li>
 
 					<li>
 						<div class="card">
-							<h4>Title</h4>
+							<h4>Wat wil ik?</h4>
 							<p>Ik ben Beau Dekker, 19 jaar</p>
 						</div>
 					</li>
